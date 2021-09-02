@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MMT TestRun" duration-ms="23879" started-at="2021-09-02T15:33:06 IST" finished-at="2021-09-02T15:33:30 IST">
+    <groups>
+    </groups>
+    <test name="MMT Test" duration-ms="23879" started-at="2021-09-02T15:33:06 IST" finished-at="2021-09-02T15:33:30 IST">
+      <class name="org.mvnframework.k12.fugetronAssignment.mmtTestClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.mvnframework.k12.fugetronAssignment.mmtTestClass@3108bc]" name="beforeClass" is-config="true" duration-ms="9764" started-at="2021-09-02T15:33:07 IST" finished-at="2021-09-02T15:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:org.mvnframework.k12.fugetronAssignment.mmtTestClass@3108bc]" name="f" duration-ms="10083" started-at="2021-09-02T15:33:16 IST" finished-at="2021-09-02T15:33:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.mvnframework.k12.fugetronAssignment.mmtTestClass@3108bc]" name="afterClass" is-config="true" duration-ms="757" started-at="2021-09-02T15:33:26 IST" finished-at="2021-09-02T15:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.mvnframework.k12.fugetronAssignment.mmtTestClass -->
+      <class name="org.mvnframework.k12.fugetronAssignment.ConnectDBtest">
+        <test-method status="PASS" signature="jdbcConnect()[pri:0, instance:org.mvnframework.k12.fugetronAssignment.ConnectDBtest@3e9b1010]" name="jdbcConnect" duration-ms="399" started-at="2021-09-02T15:33:30 IST" finished-at="2021-09-02T15:33:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jdbcConnect -->
+      </class> <!-- org.mvnframework.k12.fugetronAssignment.ConnectDBtest -->
+      <class name="org.mvnframework.k12.fugetronAssignment.RestAssuredTest">
+        <test-method status="PASS" signature="restAssured()[pri:0, instance:org.mvnframework.k12.fugetronAssignment.RestAssuredTest@18eed359]" name="restAssured" duration-ms="2814" started-at="2021-09-02T15:33:27 IST" finished-at="2021-09-02T15:33:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restAssured -->
+      </class> <!-- org.mvnframework.k12.fugetronAssignment.RestAssuredTest -->
+    </test> <!-- MMT Test -->
+  </suite> <!-- MMT TestRun -->
+</testng-results>
